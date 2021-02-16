@@ -1,3 +1,11 @@
+<!--Comentarios Generales: El código es legible (tanto el html como el css), las reglas en css están claramente nombradas tiene secciones lógicas claramente diferenciables.
+    El código solo tenía unos cuantos errores de validación. Uno de estos era el uso de los atributos 'frameborder' y 'allowtransparency' los cuales están obsoletos según el
+    validador, por lo que fueron eliminados (esto no hizo ningún cambio en la visualización de la página). Otro error fue el uso de un '%' en el atributo 'width', el cual es un 
+    error según el validador. Al eliminar el '%' el video quedaba poco visible por quedar en un cuadro de 100 de ancho por 400 de alto, por lo que se eliminó el atributo 'width', 
+    lo que escaló el frame a unas dimensiones adecuadas aunque diferentes a las visibles antes del cambio. Finalmente se metieron lso scripts dentro del tag 'body', lo cual era 
+    necesario según el validador. 
+    La página en sí tiene una navegación consistente y el diseño en sí de la página es bueno: la tipografía y los colores son legibles y consistentes, hace buen uso de 
+    hace buen uso de secciones, bloques e imágenes.-->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -143,6 +151,7 @@
         <div class="col text-center">
           <h2 class="h1 mb-3 mt-3 text-info">More things about me</h2>
         </div>
+
       </div>
       <div class="row mt-5 mb-3">
         <div class="col-sm col-md-6 col-lg-6 p-4">
@@ -215,6 +224,7 @@
             allow="encrypted-media"
             class="shadow"
           ></iframe>
+
         </div>
       </div>
     </div>
@@ -239,6 +249,7 @@
         </li>
       </ul>
     </footer>
+
   </body>
   <script
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
@@ -262,3 +273,9 @@ Buen diseño de página.
 Colores diferenciables.
 Algunos errores de html pero no muy serios en cuanto afecta al código
  Poco uso de css-->
+
+    
+
+</body><!--Se metieron los scripts dentro del tag 'body' pues el validator lo marcaba como error-->
+</html>
+
