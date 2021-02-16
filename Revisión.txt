@@ -1,0 +1,4 @@
+La pagina esta muy bonita.La distribucion de todo la hace bastante agradable.
+El codigo esta estructurado bastante bien, tanto en html como en css.
+En cuanto a validator aparencieron 3 errores. El primero es porque se utilizo un valor de witdh de un "100%", el cual no lo reconoce, y en el caso de no dejarlo la imagen va a estar por defecto al 100% de su ancho.
+Los otros 2 errores son uno de que no se uso el css para definir el frameborder del iframe y es obsoleto hoy en dia, y el otro fue un error que no entendi al inicio del script.
